@@ -1,0 +1,95 @@
+#thegame {
+    max-width: 800px;  
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ 
+.current-image {
+    width: 100%;  
+    height: 500px;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}
+
+ 
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+     
+}
+
+ 
+.controls button {
+    margin: 0 5px;  
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+     
+}
+
+ 
+
+
+.controls button:hover {
+    background-color: #2980b9;  
+}
+
+ 
+.catmessage,
+.zombiemessage,
+.playerscore {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.playerscore{
+    color: rgb(22, 32, 32);
+}
+
+.catmessage{
+    color: green;
+     
+}
+
+.zombiemessage{
+    color: red;
+     
+}
+
+.dadjokes{
+    color: purple;
+    font-size: 18px;
+}
+ 
+#startbutton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+
+ 
+#startbutton:hover {
+    background-color: #219653;  
+}
+#spelplanen{
+    display: flex;
+    flex-direction: column;
+    margin-right: 700px;
+}

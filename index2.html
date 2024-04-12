@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombies and cats</title>
+    <link rel="stylesheet" href="css/styling2.css">
+</head>
+
+<body>
+    <div id="thegame">
+        <img id="currentImage" class="current-image">
+        <div id="controls" class="controls">
+            <button class="west" onclick="playerPositionWest()">⬅</button>
+            <button class="north" onclick="playerPositionNorth()">⬆</button>
+            <button class="south" onclick="playerPositionSouth()">⬇</button>
+            <button class="east"  onclick="playerPositionEast()">⮕</button>
+        </div>
+        <button id="startbutton" onclick="startgame()">Start Game</button>
+        <div id="catmessage" class="catmessage"></div>
+        <div id="zombiemessage" class="zombiemessage"></div>
+        <div id="playerscore" class="playerscore">Poäng: <span id="scorevalue">0</span></div>
+
+        <div id="spelplanen"></div>
+        <div id="dadjokes" class="dadjokes"></div>
+    </div>
+
+
+
+
+    <script src="script/script2.js"></script>
+</body>
+
+</html>
